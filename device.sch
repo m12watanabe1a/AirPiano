@@ -8792,7 +8792,7 @@ W = angled&lt;p&gt;
 <part name="S1" library="SKRPACE010" deviceset="SKRPACE010" device=""/>
 <part name="S2" library="SKRPACE010" deviceset="SKRPACE010" device=""/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
-<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" value="serial"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9128,16 +9128,16 @@ W = angled&lt;p&gt;
 <wire x1="55.88" y1="0" x2="55.88" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
-<label x="93.98" y="35.56" size="1.778" layer="95"/>
-<wire x1="99.06" y1="33.02" x2="109.22" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="33.02" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="30.48" x2="99.06" y2="30.48" width="0.1524" layer="91"/>
+<label x="91.44" y="25.4" size="1.778" layer="95"/>
+<wire x1="73.66" y1="30.48" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<junction x="99.06" y="33.02"/>
 <pinref part="J1" gate="G$1" pin="SHIELD"/>
-<wire x1="99.06" y1="33.02" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="30.48" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="25.4" x2="109.22" y2="25.4" width="0.1524" layer="91"/>
+<junction x="99.06" y="30.48"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="30.48" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
@@ -9342,10 +9342,10 @@ W = angled&lt;p&gt;
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="83.82" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="83.82" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="83.82" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
-<label x="93.98" y="27.94" size="1.778" layer="95"/>
-<wire x1="53.34" y1="30.48" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="83.82" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
+<label x="101.6" y="35.56" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="33.02" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="C"/>
