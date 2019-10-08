@@ -9125,8 +9125,8 @@ Source: &lt;a href="http://www.panjit.com.tw/pdf/GPP/GS1000FL_SERIES 170613 REV.
 <instance part="GND10" gate="1" x="73.66" y="20.32" smashed="yes">
 <attribute name="VALUE" x="71.12" y="17.78" size="1.778" layer="96"/>
 </instance>
-<instance part="GND11" gate="1" x="86.36" y="20.32" smashed="yes">
-<attribute name="VALUE" x="83.82" y="17.78" size="1.778" layer="96"/>
+<instance part="GND11" gate="1" x="86.36" y="38.1" smashed="yes">
+<attribute name="VALUE" x="83.82" y="35.56" size="1.778" layer="96"/>
 </instance>
 <instance part="GND12" gate="1" x="12.7" y="7.62" smashed="yes">
 <attribute name="VALUE" x="10.16" y="5.08" size="1.778" layer="96"/>
@@ -9309,7 +9309,7 @@ Source: &lt;a href="http://www.panjit.com.tw/pdf/GPP/GS1000FL_SERIES 170613 REV.
 <segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="50.8" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="50.8" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="50.8" x2="86.36" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -9557,6 +9557,7 @@ Source: &lt;a href="http://www.panjit.com.tw/pdf/GPP/GS1000FL_SERIES 170613 REV.
 <segment>
 <pinref part="J6" gate="G$1" pin="P$2"/>
 <wire x1="-134.62" y1="5.08" x2="-129.54" y2="5.08" width="0.1524" layer="91"/>
+<label x="-132.08" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="K"/>
